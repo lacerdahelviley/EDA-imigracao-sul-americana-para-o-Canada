@@ -27,30 +27,19 @@ fig.update_layout(width=1000, height=500, xaxis={'tickangle':-45},
 fig.show()
 ````
 
-## Como Executar
-
-Clone este repositório:
-``` bash
-git clone https://github.com/seu_usuario/imigracao-america-sul-canada.git
-```
-Navegue até o diretório do projeto:
-``` bash
-cd imigracao-america-sul-canada
-````
-Instale as dependências:
-``` bash
-pip install -r requirements.txt
-```
-
-Execute o script de análise:
-``` bash
-python analise_imigracao.py
-```
+## Como Executar no Google Colab
+1. Abra o Google Colab em seu navegador.
+2. Faça login com sua conta do Google.
+3. Clique em "Arquivo" -> "Abrir notebook".
+4. Na guia "GitHub", cole o link do repositório: `https://github.com/seu_usuario/imigracao-america-sul-canada`.
+5. Selecione o notebook principal ou o script de análise (`analise_imigracao.ipynb` ou `analise_imigracao.py`).
+6. Clique em "Abrir".
+7. Execute as células do notebook para reproduzir a análise.
 
 ## Dependências
-Python 3.8+
-Plotly
-Pandas
+- Python 3.8+
+- Plotly
+- Pandas
 
 ## Agradecimentos
 Agradeço à Alura pelo excelente curso e à comunidade de Data Science pelo suporte contínuo.
