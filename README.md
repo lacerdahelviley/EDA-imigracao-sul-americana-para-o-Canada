@@ -27,3 +27,34 @@ fig.update_layout(width=1000, height=500, xaxis={'tickangle':-45},
 fig.show()
 
 
+## Como Executar
+
+Clone este repositório:
+
+git clone https://github.com/seu_usuario/imigracao-america-sul-canada.git
+
+Navegue até o diretório do projeto:
+cd imigracao-america-sul-canada
+
+Instale as dependências:
+pip install -r requirements.txt
+
+
+Execute o script de análise:
+python analise_imigracao.py
+
+
+## Dependências
+Python 3.8+
+Plotly
+Pandas
+
+## Agradecimentos
+Agradeço à Alura pelo excelente curso e à comunidade de Data Science pelo suporte contínuo.
+
+## Contato
+Para mais informações, entre em contato:
+
+Email: helviley.melo@gmail.com
+LinkedIn: linkedin.com/in/helviley-lacerda-2253a2115/
+
