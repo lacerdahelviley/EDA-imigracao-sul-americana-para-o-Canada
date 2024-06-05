@@ -25,24 +25,27 @@ fig.update_layout(width=1000, height=500, xaxis={'tickangle':-45},
                   xaxis_title='Ano',
                   yaxis_title='Número de imigrantes')
 fig.show()
-
+````
 
 ## Como Executar
 
 Clone este repositório:
-
+``` bash
 git clone https://github.com/seu_usuario/imigracao-america-sul-canada.git
-
+```
 Navegue até o diretório do projeto:
+``` bash
 cd imigracao-america-sul-canada
-
+````
 Instale as dependências:
+``` bash
 pip install -r requirements.txt
-
+```
 
 Execute o script de análise:
+``` bash
 python analise_imigracao.py
-
+```
 
 ## Dependências
 Python 3.8+
